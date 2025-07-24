@@ -1,5 +1,5 @@
 rows = int(input("Enter the number of rows: "))
-border = 20
+border = int(input("Enter the border size: "))
 center = border // 2
 
 for a in range(border + 1):
